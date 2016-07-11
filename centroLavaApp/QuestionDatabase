@@ -1,0 +1,445 @@
+{
+  "0": {
+    "rawstring": "Please specify the industry of your business, to help us match the appropriate services for you:",
+    "cols": [
+      "Agriculture",
+      "Food and Beverage",
+      "Services",
+      "Products",
+      "Healthcare",
+      "Open Entry"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Agriculture": [
+        "Agriculture"
+      ],
+      "Food and Beverage": [
+        "Food and Beverage"
+      ],
+      "Services": [
+        "Services"
+      ],
+      "Products": [
+        "Products"
+      ],
+      "Healthcare": [
+        "Healthcare"
+      ],
+      "Open Entry": [
+        "Open Entry"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Agriculture": "Such as jam production, groundnut processing, quail egg farming, mushroom farming and so on.",
+      "Food and Beverage": "Such as fruit juice production, spicies production and so on.",
+      "Services": "Such as mobile pet grooming, diaper delivery, mobile locksmith and so on.",
+      "Products": "Such as housing products, creative decoration products and so on.",
+      "Healthcare": "Such as online diagnosis, doctor reservation and so on.",
+      "Open Entry": "I haven't decided the industry of my business yet."
+    },
+    "nextq": {
+      "Agriculture": 1,
+      "Food and Beverage": 1,
+      "Services": 1,
+      "Products": 1,
+      "Healthcare": 1,
+      "Open Entry": 1
+    }
+  },
+  "1": {
+    "rawstring": "Which type of help do you mainly want, money related or management related?",
+    "cols": [
+      "Loan Advice",
+      "Credit Health",
+      "Finance",
+      "Bookkeeping and Accounting",
+      "Taxes",
+      "Business Planning",
+      "Legal",
+      "Marketing",
+      "Operations",
+      "Leadership",
+      "Computer Skills",
+      "Social Media and Website",
+      "Communications",
+      "Sales"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Money related": [
+        "Loan Advice",
+        "Credit Health",
+        "Finance",
+        "Bookkeeping and Accounting",
+        "Taxes"
+      ],
+      "Management related": [
+        "Business Planning",
+        "Legal",
+        "Marketing",
+        "Operations",
+        "Leadership",
+        "Computer Skills",
+        "Social Media and Website",
+        "Communications",
+        "Sales"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Money related": "Such as loan advice, taxes, accounting, etc.",
+      "Management related": "Such as business planning, sales, etc."
+    },
+    "nextq": {
+      "Money related": 2,
+      "Management related": 6
+    }
+  },
+  "2": {
+    "rawstring": "Money management plays as a key part of entrepreneurship. Is your problem mainly about getting money to start/expand your business, or about managing the money you have right now?",
+    "cols": [
+      "Loan Advice",
+      "Credit Health",
+      "Finance",
+      "Bookkeeping and Accounting",
+      "Taxes"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Getting more money to start/expand my business": [
+        "Loan Advice",
+        "Finance"
+      ],
+      "Managing the money I have": [
+        "Bookkeeping and Accounting",
+        "Credit Health",
+        "Taxes"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Getting more money to start/expand my business": "Such as apply for loans, or money investment.",
+      "Managing the money I have": "Such as accounting and taxes management, etc."
+    },
+    "nextq": {
+      "Getting more money to start/expand my business": 3,
+      "Managing the money I have": 4
+    }
+  },
+  "3": {
+    "rawstring": "Generally, you can raising funding by applying for loads or by investment with partnership. For which one do you need help?",
+    "cols": [
+      "Loan Advice",
+      "Finance"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Applying loans": [
+        "Loan Advice"
+      ],
+      "Investment with partnership": [
+        "Finance"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "Applying loans": "A loan is a debt provided by an entity (organization or individual) to another entity at an interest rate, and evidenced by a promissory note which specifies, among other things, the principal amount of money borrowed, the interest rate the lender is charging, and date of repayment",
+      "Investment with partnership": "Some organizations or individuals can be partners for your business, they invest money, take the risk and profit together with you."
+    },
+    "nextq": {
+      "Applying loans": 9,
+      "Investment with partnership": 9
+    }
+  },
+  "4": {
+    "rawstring": "A tax is a financial charge or other levy imposed upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state to fund various public expenditures. A failure to pay, or evasion of or resistance to taxation, is usually punishable by law. Is your problem about tax issues?",
+    "cols": [
+      "Bookkeeping and Accounting",
+      "Credit Health",
+      "Taxes"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Yes": [
+        "Taxes"
+      ],
+      "No": [
+        "Bookkeeping and Accounting",
+        "Credit Health"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Yes": "",
+      "No": ""
+    },
+    "nextq": {
+      "Yes": 9,
+      "No": 5
+    }
+  },
+  "5": {
+    "rawstring": "Do you need advice for maintain a healthy credit record or managing your history moneny flow?",
+    "cols": [
+      "Bookkeeping and Accounting",
+      "Credit Health"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Maintain a healthy credit record": [
+        "Credit Health"
+      ],
+      "Bookkeeping and Accounting": [
+        "Bookkeeping and Accounting"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "Maintain a healthy credit record": "A credit history is a record of a borrower's responsible repayment of debts. The gathered records are then used by lenders to determine an individual's credit worthiness; that is, determining an individual's ability and track record of repaying a debt.",
+      "Bookkeeping and Accounting": "Accounting is the systematic and comprehensive recording of financial transactions pertaining to a business. Accounting also refers to the process of summarizing, analyzing and reporting these transactions. The financial statements that summarize a large company's operations, financial position and cash flows over a particular period are a concise summary of hundreds of thousands of financial transactions it may have entered into over this period."
+    },
+    "nextq": {
+      "Maintain a healthy credit record": 9,
+      "Bookkeeping and Accounting": 9
+    }
+  },
+  "6": {
+    "rawstring": "Is your problem mainly about internal organization management or external interaction and communication?",
+    "cols": [
+      "Business Planning",
+      "Legal",
+      "Marketing",
+      "Operations",
+      "Leadership",
+      "Computer Skills",
+      "Social Media and Website",
+      "Communications",
+      "Sales"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Internal organization management": [
+        "Business Planning",
+        "Leadership",
+        "Computer Skills",
+        "Communications",
+        "Operations"
+      ],
+      "External interaction and communication": [
+        "Legal",
+        "Marketing",
+        "Social Media and Website",
+        "Sales"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Internal organization management": "Such as planning and communication.",
+      "External interaction and communication": "Such as marketing and sales."
+    },
+    "nextq": {
+      "Internal organization management": 8,
+      "External interaction and communication": 7
+    }
+  },
+  "7": {
+    "rawstring": "Please further specify your problem:",
+    "cols": [
+      "Legal",
+      "Marketing",
+      "Social Media and Website",
+      "Sales"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Legal": [
+        "Legal"
+      ],
+      "Marketing": [
+        "Marketing"
+      ],
+      "Social Media and Website": [
+        "Social Media and Website"
+      ],
+      "Sales": [
+        "Sales"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "Legal": "Legal management is a practice management strategy of corporate legal departments, insurance claims departments, and government legal and contract management departments.",
+      "Marketing": "Marketing is a widely used term to describe the communication between a company and the consumer audience that aims to increase the value of the company or its merchandise or, at its simplest, raises the profile of the company and its products in the public mind.",
+      "Social Media and Website": "The use of social media and websites (such as Facebook, Instagram, WordPress, Squarespace, Weebly, Wix, LinkedIn, post, blog, etc.) to help promote business.",
+      "Sales": "Sales is activity related to selling or the amount of goods or services sold in a given time period."
+    },
+    "nextq": {
+      "Legal": 9,
+      "Marketing": 9,
+      "Social Media and Website": 9,
+      "Sales": 9
+    }
+  },
+  "8": {
+    "rawstring": "Please further specify your problem:",
+    "cols": [
+      "Business Planning",
+      "Leadership",
+      "Computer Skills",
+      "Communications",
+      "Operations"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Business Planning": [
+        "Business Planning"
+      ],
+      "Leadership": [
+        "Leadership"
+      ],
+      "Communications": [
+        "Communications"
+      ],
+      "Operations": [
+        "Operations"
+      ],
+      "Computer Skills": [
+        "Computer Skills"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "Business Planning": "A business plan is a formal statement of business goals, reasons they are attainable, and plans for reaching them. It may also contain background information about the organization or team attempting to reach those goals.",
+      "Leadership": "Leadership is both a research area and a practical skill encompassing the ability of an individual or organization to 'lead' or guide other individuals, teams, or entire organizations.",
+      "Communications": "Communication is the act of conveying intended meaning from one entity or group to another through the use of mutually understood signs and semiotic rules. Communication is the key to turn strategy and plan into action.",
+      "Operations": "Operations management is an area of management concerned with designing and controlling the process of production and redesigning business operations in the production of goods or services. It involves the responsibility of ensuring that business operations are efficient in terms of using as few resources as needed and effective in terms of meeting customer requirements.",
+      "Computer Skills": "Such as the ability to use Word, Excel, PowerPoint, Print, Internet or other computer software/hardwares."
+    },
+    "nextq": {
+      "Business Planning": 9,
+      "Leadership": 9,
+      "Communications": 9,
+      "Operations": 9,
+      "Computer Skills": 9
+    }
+  },
+  "9": {
+    "rawstring": "We have different services that can provide flexible ways to access, do you have easy access to Internet, or do you prefer to access the service offline?",
+    "cols": [
+      "Online Tools",
+      "Coaching & Advising",
+      "Workshops / Training"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "I prefer Online Tools": [
+        "Online Tools"
+      ],
+      "I prefer Offline services": [
+        "Coaching & Advising",
+        "Workshops / Training"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "I prefer Online Tools": "Online tools include online curricula, online videos, and online materials, etc.",
+      "I prefer Offline services": "We offer workshops / trainings in which you can interact and brainstorm with other entrepreneurs, we also have experts for 1:1 coaching & advising you with your problems."
+    },
+    "nextq": {
+      "I prefer Online Tools": 11,
+      "I prefer Offline services": 10
+    }
+  },
+  "10": {
+    "rawstring": "For offline services, do you prefer to discuss your problems with other entrepreneurs or just with experts?",
+    "cols": [
+      "Coaching & Advising",
+      "Workshops / Training"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "Discuss with other entrepreneurs": [
+        "Coaching & Advising"
+      ],
+      "Talk to experts": [
+        "Workshops / Training"
+      ]
+    },
+    "isradio": false,
+    "descriptions": {
+      "Discuss with other entrepreneurs": "We offer Workshops / Trainings in which you can interact and brainstorm with other entrepreneurs.",
+      "Talk to experts": "We have experts for 1:1 coaching & advising you with your problems."
+    },
+    "nextq": {
+      "Discuss with other entrepreneurs": 11,
+      "Talk to experts": 11
+    }
+  },
+  "11": {
+    "rawstring": "Do you have any language preference for the service?",
+    "cols": [
+      "English",
+      "Spanish",
+      "Mandarin",
+      "Vietnamese"
+    ],
+    "iscolfilter": true,
+    "potentialanswers": {
+      "English": [
+        "English"
+      ],
+      "Spanish": [
+        "Spanish"
+      ],
+      "Mandarin": [
+        "Mandarin"
+      ],
+      "Vietnamese": [
+        "Vietnamese"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "English": "",
+      "Spanish": "",
+      "Mandarin": "",
+      "Vietnamese": ""
+    },
+    "nextq": {
+      "English": 12,
+      "Spanish": 12,
+      "Mandarin": 12,
+      "Vietnamese": 12
+    }
+  },
+  "12": {
+    "rawstring": "Do you want to spend money on the service?",
+    "cols": [
+      "Cost"
+    ],
+    "iscolfilter": false,
+    "potentialanswers": {
+      "Paid": [
+        "Cost"
+      ],
+      "Traded": [
+        "Cost"
+      ],
+      "Free": [
+        "Cost"
+      ]
+    },
+    "isradio": true,
+    "descriptions": {
+      "Paid": "You need to pay for the services our organizations provide, this type of services may have higher qualify.",
+      "Traded": "You can use some items or services to trade for the services you need, based on agreement upon how to trade between you and the service provider.",
+      "Free": "You don't need to pay anything for this kind of services."
+    },
+    "nextq": {
+      "Paid": -1,
+      "Traded": -1,
+      "Free": -1
+    }
+  }
+}
